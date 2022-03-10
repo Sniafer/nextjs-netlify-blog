@@ -6,7 +6,8 @@ cats:
     name: Maru (まる)
   - description: Lil Bub is an American celebrity cat known for her unique appearance.
     name: Lil Bub
-  - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
+  - description: Grumpy cat is an American celebrity cat known for her grumpy
+      appearance. Yep
     name: Grumpy cat (Tardar Sauce)
   - name: Sniafi
     description: Sniafi jest piekniusi.
