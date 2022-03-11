@@ -89,7 +89,7 @@ collections:
         format: "YYYY-MM-DD"
         dateFormat: "YYYY-MM-DD"
         timeFormat: false
-- label: Author
+      - label: Author
         name: "author"
         widget: relation
         collection: "meta"
