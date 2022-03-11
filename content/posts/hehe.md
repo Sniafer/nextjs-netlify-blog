@@ -6,8 +6,9 @@ author: wikmaszota
 tags:
   - document
 ---
-TEST 
 
-![japa](/public/img/p1030455.jpeg "japsko")
+TEST
 
- troche duze te zdjecia
+![japa](/img/p1030455.jpeg "japsko")
+
+troche duze te zdjecia
