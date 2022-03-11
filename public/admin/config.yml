@@ -65,7 +65,7 @@ collections:
                 name: "name"
                 widget: "string"
                 hint: "Tag name for displaying on the site"
-  -name: "posts"
+  - name: "posts"
   label: "Posts"
   folder: "content/posts/"
   format: "frontmatter"
