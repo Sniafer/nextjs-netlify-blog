@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import yaml from "js-yaml";
 import PostsList from "../../components/PostsList";
 import { PostContent } from "../../lib/types";
 import { sortByDate } from "../../utils";
@@ -27,8 +28,20 @@ export async function getStaticProps() {
       path.join("content/posts", filename),
       "utf-8"
     );
+
+    const matterResult = matter(fileContents, {
+      engines: {
+        yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
+      },
+    });
     const slug = filename.replace(".md", "");
-    const { data: frontmatter } = matter(fileContents);
+    const frontmatter = matterResult.data as {
+      author: string;
+      date: string;
+      title: string;
+      tags: string[];
+      slug: string;
+    };
 
     return {
       slug,

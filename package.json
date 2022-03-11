@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
     "marked": "^4.0.12",
     "next": "12.1.0",
     "react": "17.0.2",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
+    "@types/js-yaml": "^4.0.5",
     "@types/marked": "^4.0.2",
     "@types/node": "17.0.21",
     "@types/react": "17.0.40",

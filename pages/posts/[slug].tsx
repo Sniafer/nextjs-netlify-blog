@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import yaml from "js-yaml";
 import { Post } from "../../lib/types";
 import ReactMarkdown from "react-markdown";
 import Link from "next/link";
@@ -56,7 +57,21 @@ export async function getStaticProps({ params: { slug } }: Params) {
     "utf-8"
   );
 
-  const { data: frontmatter, content } = matter(fileContents);
+  const matterResult = matter(fileContents, {
+    engines: {
+      yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
+    },
+  });
+
+  const frontmatter = matterResult.data as {
+    author: string;
+    date: string;
+    title: string;
+    tags: string[];
+    slug: string;
+  };
+
+  const { content } = matter(fileContents);
   return {
     props: {
       frontmatter,
