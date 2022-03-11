@@ -6,8 +6,7 @@ author: wikmaszota
 tags:
   - markdown
 ---
+
 No dobra
 
-
-
-![test](/public/img/p1030455.jpeg "testowowow")
+![test](/img/p1030455.jpeg "testowowow")
