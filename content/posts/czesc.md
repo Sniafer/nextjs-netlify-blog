@@ -8,3 +8,7 @@ tags:
   - license
 ---
 DZIALALALALALA
+
+
+
+![A czo to](img/next-ssr-or-ssg.png "A to czo?")
