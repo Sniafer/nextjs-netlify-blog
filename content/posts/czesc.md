@@ -7,8 +7,7 @@ tags:
   - document
   - license
 ---
+
 DZIALALALALALA
 
-
-
-![A czo to](img/next-ssr-or-ssg.png "A to czo?")
+![A czo to](/img/next-ssr-or-ssg.png "A to czo?")

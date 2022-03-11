@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: public/img
-public_folder: img
+media_folder: /public/img
+public_folder: /img
 
 collections:
   - name: "pages"
@@ -75,7 +75,7 @@ collections:
     create: true
     slug: "{{slug}}"
     identifier_field: slug
-    media_folder: public/img
+    media_folder: /public/img
     summary: "{{title}}"
     fields:
       - label: "Slug"
