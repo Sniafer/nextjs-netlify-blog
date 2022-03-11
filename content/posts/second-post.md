@@ -1,7 +1,7 @@
 ---
 slug: "second-post"
 title: "This is second post"
-date: "2022-03-12"
+date: 2022-03-11
 author: Wiktor
 tags:
   - test

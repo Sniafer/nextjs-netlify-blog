@@ -75,6 +75,7 @@ collections:
     create: true
     slug: "{{slug}}"
     identifier_field: slug
+    media_folder: public/img
     summary: "{{title}}"
     fields:
       - label: "Slug"

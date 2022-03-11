@@ -1,7 +1,7 @@
 ---
 slug: "first-post"
 title: "This is first post"
-date: "2022-03-11"
+date: 2022-03-11
 author: Wiktor
 tags:
   - test

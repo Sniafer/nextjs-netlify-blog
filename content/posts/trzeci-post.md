@@ -8,6 +8,6 @@ tags: "asdasd, asdasd"
 
 # Chyba działa tak jak trzeba.
 
-![](img/next-ssr-or-ssg.png "obrazek")
+![](/img/next-ssr-or-ssg.png "obrazek")
 
 testowo chyba dziala zobaczmy.
